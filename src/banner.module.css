@@ -8,7 +8,7 @@
     margin: 0;
     display: flex;
     height : 526px;
-    width : 100%;
+    width :100%;
     margin-top : 55px;
     background: linear-gradient(45deg,  rgb(32, 19, 46) 57%,rgba(254,2,104,1) 51%);
     max-width : 1303px;
@@ -17,26 +17,29 @@
 .bannertext {
     height  : 400px;
     width : 30rem;
-    margin: 50px 50px;
+    margin: 50px 42px;
     cursor: pointer;
+
 }
 
 .bannerimage {
-    height : 470px;
-    width : 32rem;
-    margin: 20px 5rem;
+    height : 558px;
+    width : 28rem;
+    margin: 20px 48% ;
     cursor: pointer;
+    position: absolute;
 }
 
 .bannerimage img {
     height : 100%;
     width : 100%;
     object-fit: fill;
+    position: static;
 }
 
 .brand {
     font-size: 110px;
-    margin-left : 9%;
+    margin-left : 8%;
     margin-top : 5rem;
     color: transparent;
     cursor: pointer;
@@ -45,7 +48,7 @@
     -webkit-background-clip: text;
     letter-spacing: 0;
     position: relative;
-    letter-spacing: 7px;
+    letter-spacing: 6px;
 }
 
 .brand.animate {
@@ -238,14 +241,14 @@
        
     }
     .sale {
-        margin-left : 40%;
+        margin-left : 15%;
     }
     .about {
         margin-left : 1.5rem;
     }
     .bannertext {
         height  : 400px;
-        width : 59.8%;
+        width : 19.8rem;
         margin: 80px 4px;
         cursor: pointer;
         z-index: 4;
@@ -253,13 +256,14 @@
 
     }
     .bannerimage {
-        height : 400px;
-        width : 40%;
-        margin: 80px 3rem;
+        height : 470px;
+        width : 45%;
+        margin: 80px 55%;
         cursor: pointer;
       overflow: hidden;
       background-color: transparent;
       z-index: 4;
+      position:absolute;
     }
     
     .bannerimage img {
